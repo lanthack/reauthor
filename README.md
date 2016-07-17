@@ -34,3 +34,6 @@ Early on I used a tokenizer without part of speech tagging, and the results were
 Also the dl4j package uses the skip-gram implementation of word2vec, which predicts context from words. It occurred to me later on that if I had used a CBOW implementation, I might have been able to just use the predict function model itself to predict a word choice given the surrounding context, and this might have helped avoiding the suggestion of un-useful words.
 
 Finally, I think the size of the corpus is just too small for a meaningful vocabulary change, and the larger difference between the authors is the semantic structure. To really get a different author-feel from a text, you'd need to analyze sentence structure, and have a solid way of replicating the ideas of a sentence in a new structure. (i.e. Dickens to Hemmingway would require cutting out like... all of the adjectives, adverbs, and clauses).
+
+deeplearning4j is under the Apache 2.0 license. 
+project gutenberg works have their own license detailed here: http://www.gutenberg.org/wiki/Gutenberg:The_Project_Gutenberg_License
